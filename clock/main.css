@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+:root{
+    --colorPrimario: #391DD5;
+    --colorSecundario: #;
+    --sombras: #;
+}
+body{
+    background-color: #232424;
+    color: #e3e3e3;
+}
+/*------------------------------------------*/
+/*header*/
+/*------------------------------------------*/
+header{
+    margin-top: 35px;  
+    margin-bottom: 34px; 
+    padding: 30px;
+    display: flex;flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul{
+    width: 30%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+/*------------------------------------------*/
+/*main*/
+/*------------------------------------------*/
+main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main img{   
+    width: 400px;
+    filter: drop-shadow(-22px 13px 10px #0e0e0e);
+}
+main div{
+    padding: 35px;
+}
+main h2{
+    width: 400px;
+    font-size: 64px;
+    filter: drop-shadow(-12px 6px 6px #0e0e0e);
+}
+main button{
+    margin: 10px;
+    width: 70%;
+    padding: 12px;
+    border-radius: 6px;
+    color: #e3e3e3;
+    background-color: var(--colorPrimario);
+    border: 0;
+    font-size: 18px;
+}
+/*------------------------------------------*/
+/*post*/
+/*------------------------------------------*/
+.post{
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    height: 10px;
+    justify-content: space-around;
+    background-color: #ffffff11;
+    border-radius: 50px;
+}
+.post div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #0f0f0fbb;
+    padding: 30px;
+    width: 220px;
+    text-align: center;
+    height: 100px;
+}
