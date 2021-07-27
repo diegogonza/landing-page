@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;500;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+:root{
+    --colorPrimario: #89DB2A;
+    --colorSecundario: #FFE245;
+    --sombras: #;
+}
+body{
+    background-image: linear-gradient(-45deg, var(--colorPrimario), #3c7704);
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* background-color: var(--colorPrimario); */
+}
+/*------------------------------------------*/
+/*header*/
+/*------------------------------------------*/
+header ul{
+    box-shadow: -8px 5px 8px 2px #479003;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: auto;
+}
+header li{
+    background-color: var(--colorSecundario);
+    font-weight: 400;
+    padding: 20px 30px;
+}
+/*------------------------------------------*/
+/*main*/
+/*------------------------------------------*/
+main{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-around;
+}
+h1{
+    width: 500px;
+    text-transform: uppercase;
+    font-size: 150px;
+    color: #fff ;
+    filter: drop-shadow(5px 5px 5px #2a5701);
+    line-height: 110px;
+}
+h1 a{
+    font-size: 120px;
+}
+main img{
+    filter: drop-shadow(7px 10px 10px #3e7e03);
+    width: 500px;
+}
