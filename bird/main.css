@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+:root{
+    --colorPrimario: #2e5911;
+    --colorSecundario: #175890;
+    --sombras: #;
+}
+body{
+    color: #fff;
+    /* background-color: var(--colorPrimario); */
+    background-image: linear-gradient(0deg, var(--colorPrimario), #429c05);
+    padding: 10px;
+    height: 100vh;
+}
+img{
+    border-radius: 8px;
+    width:auto;
+    height: 95vh;
+}
+/*------------------------------------------*/
+/*main*/
+/*------------------------------------------*/
+main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header{
+    width: 50%;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+header li{
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    cursor: pointer;
+    padding: 12px;
+    list-style: none;
+}
+header li:hover{
+    transition: .5s;
+    background-color: #fff;
+    padding: 18px;
+    color: #333;
+}
+main div{
+    border-radius: 8px;
+    background: #2e5911;
+    padding: 45px;
+    box-shadow: 2px 2px 6px 2px #21420a;
+    
+}
+main div h1{
+    width: 560px;
+    font-weight: 900;
+    font-size: 70px;
+    filter: drop-shadow(6px 6px 2px #21420a);
+    line-height: 70px;
+}
+button{
+    width: 300px;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: var(--colorSecundario);
+    border: 0;
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 2px 6px 2px #21420a;
+}

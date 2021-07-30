@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;500;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+:root{
+    --colorPrimario: #5a7852;
+    --colorSecundario: #;
+    --sombras: #;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: var(--colorPrimario);
+}
+/*------------------------------------------*/
+/*header*/
+/*------------------------------------------*/
+header h1{
+    padding: 37px;
+    font-weight: 500;
+}
+main img{
+    width: 700px;
+    height: auto;
+    border-radius:100%;
+    filter: drop-shadow(-5px 15px 15px #000);
+}
