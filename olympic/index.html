@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="img/ICON.png" type="image/x-icon">
+  <title>Olymplic</title>
+</head>
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="logo">
+            <h1>Winners Tokyo 2020 Olympic</h1>
+    </header>
+    
+    <!-- main -->
+    <main>
+        
+
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" id="swimmer">
+                    <h2>Caeleb Dresse</h2>
+                    <div>
+                        <p>Winner gold in 100-meter butterfly</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="skate">
+                    <h2>Momiji Nishiya</h2>
+                    <div>
+                        <p>Winner gold in skateboarding</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="kayak">
+                    <h2>Jiri Prskavec</h2>
+                    <div>
+                        <p>Winner gold in the kayak final</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="gymnastics">
+                    <h2>Daiki Hashimoto</h2>
+                    <div>
+                        <p>Winner gold in gymnastics</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="triatlon">
+                    <h2>Flora Duffy</h2>
+                    <div>
+                        <p>Winner gold in women's triathlon</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cube",
+        grabCursor: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>

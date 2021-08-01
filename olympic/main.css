@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Georama', sans-serif;
+
+}
+body{
+    background-color: #eee;
+}
+/*------------------------------------------*/
+/*header*/
+/*------------------------------------------*/
+h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 25px 0px 25px;
+    color: #454940;
+}
+header{
+    margin-top: 15px;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+header img{
+    width: 150px;
+}
+/*------------------------------------------*/
+/*main*/
+/*------------------------------------------*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-container {
+    width: 300px;
+    height: 300px;
+}
+.swiper-slide{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.swiper-slide div{
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+h2{
+    color: #eee;
+    text-align: center;
+    width: 100%;
+    background-color: royalblue;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#swimmer{  
+    background-image: url(img/swimmer.jpg);
+}
+#kayak{
+    background-image: url(img/kayak.jpg);
+}
+#gymnastics{
+    background-image: url(img/gymnastics.jpg);
+}
+#skate{
+    background-image: url(img/skate.jpg);
+}
+#triatlon{
+    background-image: url(img/triatlon.jpg);
+}
