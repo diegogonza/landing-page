@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Georama', sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.grid{
+    display: grid;
+}
+body{
+    background-color: #ddd;
+}
+:root{
+    --colorPrimario: #;
+    --colorSecundario: #;
+    --sombras: 0px 2px 6px #b3b3b3bb;
+    --border: .5px #dddddd solid;
+}
+/*------------------------------------------*/
+/*main*/
+/*------------------------------------------*/
+main, .coment{
+    background-color: #fff ;
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+    padding: 35px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: var(--sombras);
+}
+main section{
+    min-width: 100%;
+}
+/*------------------------------------------*/
+/*main - images*/
+/*------------------------------------------*/
+.container-images-thumball{
+    border: var(--border);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: var(--sombras);
+}
+.container-images-thumball img{
+    width: 50px;
+    margin: 3px 6px;
+    cursor: pointer;
+}
+.container-imgenes-img-principal{
+    width: 220px;
+    padding: 15px;
+    margin: 15px;
+    background-color: #fff;
+    border: var(--border);
+    border-radius: 8px;
+    box-shadow: var(--sombras);
+}
+/*------------------------------------------*/
+/*main - container-info*/
+/*------------------------------------------*/
+.container-info{
+    width: 80%;
+    height: 300px;
+    align-content: space-between;
+}
+.container-info-header{
+    justify-content: space-between;
+}
+.container-header-icons{
+    color: #444;
+    font-size: 22px;
+    cursor: pointer;
+}
+/*------------------------------------------*/
+/*main - continer-header-title*/
+/*------------------------------------------*/
+.fa-star:not(h1 i){
+    font-size: 15px;
+    color: darkorange;
+}
+#author{
+    font-size: 15px;
+    margin-left: 6px;
+    font-weight: 500;
+}
+/*------------------------------------------*/
+/*main - container-info-body-counter*/
+/*------------------------------------------*/
+.container-info-body{
+    justify-content: space-between;
+}
+.container-info-body-product{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.container-info-body-counter{
+    margin: 10px 0px;
+}
+.container-info-body-counter span{
+    font-size: 19px;
+    padding: 0px 16px;
+}
+.container-info-body-counter button{
+    cursor: pointer;
+    border: 0;
+    height: 40px;
+    padding: 0px 13px;
+    color: white;
+    background-color: rgb(11, 128, 224);
+    margin: auto 12px;
+}
+.container-info-body-counter .container-info-body-button-buy{
+    font-weight: 700;
+    font-size: 19px;
+    height: 45px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+/*------------------------------------------*/
+/*main - container-info-body-delivery*/
+/*------------------------------------------*/
+.container-info-body-delivery{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: var(--sombras);
+    width: 330px;
+    background-color: #e0e2df1c;
+}
+/*------------------------------------------*/
+/*comet*/
+/*------------------------------------------*/
+.coment{
+    width: 76%;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 30vh;
+    justify-content: start;
+}
+.coment img{
+    width: 100px;
+    border-radius: 100%;
+    box-shadow: var(--sombras);
+}
+.coment .flex{
+    width: 150px;
+}
+.coment .fa-star{
+    font-size: 12px;
+}
